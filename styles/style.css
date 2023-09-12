@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 1%;
+    border-bottom: 0.5rem solid black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: grey;
+    color: aliceblue;
+    padding: 1%;
+    border-top: 0.5rem solid black;
+    width: 98%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    border-radius: 3px;
+    border: 3px solid grey;
+    margin: 10% 30%;
+    padding: 5%;
+}
+
+input {
+    border-radius: 5px;
+    background-color: darkgrey;
+    color: white;
+    height: 1.5rem;
+}
